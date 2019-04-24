@@ -1,0 +1,63 @@
+body {
+  font-family: Helvetica;
+  padding: 2em;
+  background-color: #286373;
+}
+
+/* *{ border: 1px solid red;} */
+
+h1 {
+  font-size: 2.5em;
+}
+body>h1{color:rgb(53, 28, 63);}
+.bio {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.about {
+  background-color: #bc3a6a;
+}
+
+.portfolio {
+  background-color: #e05d6b;
+}
+
+.skills {
+  background-color: #fcb065;
+}
+
+.about,
+.portfolio,
+.skills {
+  width: 100%;
+  padding: 1em 3em 2em 2em;
+  margin: 0.5em;
+  color: white;
+}
+
+.button {
+  padding: 0.75em 1.25em;
+  background-color: powderblue;
+  opacity: 0.9;
+  width: 10em;
+  color: #351c3f;
+  font-size: 1em;
+  border-radius: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0.5em;
+  background-color: rgba(253, 219, 122, 0.27);
+}
+
+.items {
+  margin: 1em 1em;
+}
+
+.active {
+  background-color: #13294f;
+  color: peachpuff;
+}
